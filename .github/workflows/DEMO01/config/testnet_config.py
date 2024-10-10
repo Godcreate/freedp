@@ -1,0 +1,22 @@
+# Binance 测试网 API 配置
+TESTNET_API_KEY = '7e531f01f53b3774052f522056a47fc584e242b0b38e6e7ccf286278b90a3338'
+TESTNET_API_SECRET = 'aaae30371639dc61263ae73d5e70bb643d4bb888e084b33f5a24f4887718248d'
+
+# 交易参数
+SYMBOLS = ['BTC/USDT', 'ETH/USDT']  # 交易对列表
+TIMEFRAME = '1h'  # 时间框架
+
+# 策略参数
+POSITION_SIZE = 2000  # 固定仓位大小为2000 USDT
+
+# BTC策略参数
+BTC_STOP_LOSS_PERCENTAGE = 0.02  # 2%止损
+BTC_TAKE_PROFIT_PERCENTAGE = 0.02  # 2%止盈
+
+# ETH策略参数
+ETH_STOP_LOSS_PERCENTAGE = 0.03  # 3%止损
+ETH_TAKE_PROFIT_PERCENTAGE = 0.03  # 3%止盈
+
+# 日志配置
+LOG_LEVEL = 'INFO'  # 日志级别
+LOG_FILE = 'testnet_trading_log.txt'  # 日志文件名
